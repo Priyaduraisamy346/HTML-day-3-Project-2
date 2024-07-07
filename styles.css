@@ -1,0 +1,146 @@
+body{
+    background-color: burlywood;
+}h1{
+    background-color: rgb(121, 41, 41);
+    text-align: center;
+    border-radius: 50%;
+    color: rgb(238, 246, 246);
+}
+#face{
+    border:4px solid black;
+    height: 350px;
+    width: 350px;
+    background-color: palevioletred;
+    border-radius: 100%;
+}
+#eye-container{
+    position: absolute;
+    /*border:1px solid black;*/
+    width: 250px;
+    height: 100px;
+    top: 150px;
+    left: 535px;
+}
+#left-eye, #right-eye{
+    position: absolute;
+    border: 3px solid black;
+    height:100px ;
+    width: 100px;
+    background-color: white;
+    border-radius: 50%;
+    top: 60px;
+}
+#right-eye{
+    left: 150px;
+}
+#left-eye::before,#right-eye::before{
+    content: "";
+    position: absolute;
+    border:1px solid black;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    top: 10px;
+    left: 10px;
+}
+#ear-container{
+    position: absolute;
+   /* border:1px solid black;*/
+    width: 350px;
+    height: 100px;
+    top: 30px;
+    left: 535px;
+}
+#left-ear, #right-ear{
+    position: absolute;
+    border: 4px solid black;
+    height:100px ;
+    width: 100px;
+    background-color:palevioletred;
+    border-radius: 50%;
+    right: 335px;
+    top: 95px;
+
+}
+#right-ear{
+    left: 240px;
+}
+#left-ear::before{
+    content: "";
+    position: absolute;
+    border:1px solid black;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+    top: 30px;
+    right: 22px;
+    border-bottom-right-radius: 10px;
+}
+#right-ear::before{
+    content: "";
+    position: absolute;
+    border:1px solid black;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+    top: 30px;
+    left: 20px;
+    border-bottom-left-radius: 10px;
+}
+#teeth-container{
+    position: absolute;
+    /*border: 2px solid black;*/
+    height: 20px;
+    width: 30px;
+    top: 433px;
+    left: 585px;
+ }
+ #left-teeth,#right-teeth{
+    position: absolute;
+    border:3px solid black;
+    height: 25px;
+    width: 30px;
+    border-radius: 10%;
+    background-color: white;
+    left:39px;
+ }
+ #right-teeth{
+    left: 75px;
+ }
+
+
+#nose{
+    position: absolute;
+    border:3px solid black;
+    height: 80px;
+    width:150px ;
+    background-color:palevioletred;
+    top: 350px;
+    left:580px;
+    border-radius: 40px 40px 40px 40px;
+    
+ }
+ #hole-container{
+    position: absolute;
+    /*border: 2px solid black;*/
+    height: 50px;
+    width: 100px;
+    top: 370px;
+    left: 585px;
+ }
+ #right-hole,#left-hole{
+    position: absolute;
+    border:1px solid black;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: black;
+    left:20px;
+ }
+ #right-hole{
+    left: 90px;
+ }
+ 
